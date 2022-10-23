@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #525c9c;
+    width: 0;
+    height: 2px;
+    transition: 0.5s;
+  }
+  .link:hover::before,
+  .link.activ::before {
+    width: 100%;
+  }
+  .link.activ {
+    color: #525c9c;
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  .skew::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #7c1f4c;
+    width: 70%;
+    height: 100%;
+    transform: skewX(27deg) translateX(360px);
+  }
+  .about_img::after {
+    content: "";
+    position: absolute;
+    top: 92px;
+    left: 0;
+    width: 97%;
+    height: 72%;
+    border: 20px solid #7c1f4c;
+    border-bottom-color: transparent;
+    transform: skewY(10deg);
+    z-index: 1;
+  }
+  .about_img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 97%;
+    height: 33%;
+    z-index: 18;
+    border: 20px solid #7c1f4c;
+    border-top-color: transparent;
+    transform-origin: bottom;
+  }
+  .serv_head::before,
+  .port_head::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-70%);
+    width: 30%;
+    height: 3px;
+    background-color: #7c1f4c;
+  }
+  .serv_head::after,
+  .port_head::after {
+    content: "- -";
+    position: absolute;
+    bottom: 4px;
+    left: 82%;
+    transform: translateX(-70%);
+    color: #7c1f4c;
+    width: 25%;
+    height: 3px;
+  }
+  .port_head::before {
+    left: 0;
+    transform: translateX(0);
+  }
+  .port_head::after {
+    left: 54%;
+  }
+  .portfolio_box:hover .box_title {
+    bottom: 0;
+  }
+  .portfolio_box:hover img {
+    filter: blur(1.5px);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    background-color: #7c1f4c;
+    color:white;
+    width: 100%;
+    height: 100vh;
+    top: 100%;
+    left: -200%;
+    transition: left 0.7s;
+  }
+  .menu li {
+    padding: 20px 15px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .menu li::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ffffff0b;
+    transition: 0.7s;
+  }
+  .menu li:hover::before {
+    width: 100%;
+  }
+  .menu li i {
+    color: #525c9c;
+  }
+  .menu li a {
+    width: 100%;
+    display: block;
+    letter-spacing: 1.5px;
+  }
+}

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim Rouzika</title>
+    <link rel="stylesheet" href="styles/Awesome.css" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="capitalize font-Oswald">
+    <!-- start header -->
+    <header
+      class=" relative xl:h-screen overflow-hidden lg:skew"
+    >
+      <div class="header_menu fixed right-0 left-0 top-0 h-fit  pt-2 z-20 px-3">
+        <div class="container mx-auto">
+          <div class="flex lg:justify-around justify-between items-center">
+            <div class="font-bold text-4xl first-letter:font-Inspiration first-letter:text-7xl">
+              free<span class="text-mainColor">lancer</span>
+            </div>
+            <div>
+              <i
+                class="md:hidden fa-solid fa-bars text-2xl cursor-pointer text-mainColor"
+                id="btn_menu"
+              ></i>
+              <ul
+                class="md:flex justify-center items-center font-light text-2xl md:w-full sm:w-10/12 menu"
+              >
+                <li class="px-5 flex justify-start items-center">
+                  <i class="fa-solid fa-house mr-3 md:hidden"></i>
+                  <a
+                    class="relative cursor-pointer md:link px-1 md:pb-2 md:hover:text-secondColor md:hover:scale-110 transition-all duration-300 activ"
+                    href="#home"
+                    >home</a
+                  >
+                </li>
+                <li class="px-5 flex justify-start items-center">
+                  <i class="fa-solid fa-address-card mr-3 md:hidden"></i>
+                  <a
+                    class="relative cursor-pointer md:link px-1 md:pb-2 md:hover:text-secondColor md:hover:scale-110 transition-all duration-300"
+                    href="#about"
+                    >about</a
+                  >
+                </li>
+                <li class="px-5 flex justify-start items-center">
+                  <i class="fa-solid fa-briefcase mr-3 md:hidden"></i>
+                  <a
+                    class="relative cursor-pointer md:link px-1 md:pb-2 md:hover:text-secondColor md:hover:scale-110 transition-all duration-300"
+                    href="#services"
+                    >services</a
+                  >
+                </li>
+                <li class="px-5 flex justify-start items-center">
+                  <i class="fa-solid fa-diagram-project mr-3 md:hidden"></i>
+                  <a
+                    class="relative cursor-pointer md:link px-1 md:pb-2 md:hover:text-secondColor md:hover:scale-110 transition-all duration-300"
+                    href="#portfolio"
+                    >portfolio</a
+                  >
+                </li>
+                <div
+                  class="flex justify-center items-center gap-4 flex-wrap  md:hidden"
+                >
+                  <div>
+                    <i class="fa-regular fa-envelope mr-3 text-secondColor text-3xl"></i>
+                    <span class="lowercase">eslam0955@gmail.com</span>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-whatsapp mr-3 text-secondColor text-3xl"></i>
+                    <span>01005801941</span>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="landing px-3 pt-28 h-full" id="home">
+        <div class="container mx-auto h-full">
+          <div
+            class="land_boxs lg:flex items-center justify-around xl:gap-x-32 lg:gap-x-16 h-full"
+          >
+            <div
+              class="box_icons w-fit lg:flex items-center justify-between flex-col py-2 text-gray-300 border border-mainColor rounded-t-full rounded-b-full h-60 px-3 mb-12 hidden"
+            >
+              <a
+                class="hover: transition-colors duration-500"
+                href="https://www.facebook.com/eslamrouzqa"
+                ><i class="fa-brands fa-facebook-f hover:text-mainColor transition-colors duration-500"></i
+              ></a>
+              <a
+                class="hover: transition-colors duration-500"
+                href=""
+                ><i class="fa-brands fa-instagram hover:text-mainColor transition-colors duration-500"></i
+              ></a>
+              <a
+                class="hover: transition-colors duration-500"
+                href="https://github.com/eslam900?tab=repositories"
+                ><i class="fa-brands fa-github hover:text-mainColor transition-colors duration-500"></i
+              ></a>
+              <a
+                class="hover: transition-colors duration-500"
+                href=""
+                ><i class="fa-brands fa-linkedin hover:text-mainColor transition-colors duration-500"></i
+              ></a>
+            </div>
+            <div
+              class="box lg:flex items-center justify-around lg:w-11/12 h-full"
+            >
+              <div class="box_info max-w-lg">
+                <h3 class=" text-3xl mb-6">Hello I'm</h3>
+                <h1 class="text-5xl  font-bold mb-3 text-mainColor">ibrahim Rouzika</h1>
+                <h6 class="text-lg font-norma  mb-6 text-mainColor">
+                  Professional frontend developer
+                </h6>
+                <p class=" font-normal mb-6 text-gray-500">
+                  I'm a front-end developer who can work with many languages ​​and frameworks<br/> (html/ css3/ javascript/ reactjs/ wordpress/ bootstrap/tailwind css) and more.
+                </p>
+                <button
+                  class=" py-4 px-9 bg-mainColor text-white font-bold border border-mainColor hover:bg-white hover:text-mainColor transition-all duration-500 rounded-lg capitalize"
+                >
+                  <a class="tracking-wider" href="">hire me</a>
+                </button>
+              </div>
+              <div
+                class="box_img flex flex-col justify-end xl:max-w-xl sm:max-w-md mx-auto lg:mx-0 relative h-full"
+              >
+                <img
+                  src="./image/hero.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- start about -->
+    <section
+      class="about pt-20 lg:h-screen xl:px-48 px-3  pb-11 bg-gray-100"
+      id="about"
+    >
+      <div class="container mx-auto lg:h-full">
+        <div class="about_boxs lg:flex items-center justify-between lg:h-full">
+          <div class="about_img lg:w-4/12 sm:w-8/12 w-full relative">
+            <img
+              class="mx-auto relative w-full z-10"
+              src="./image/about_hero.png"
+              alt=""
+            />
+          </div>
+          <div class="lg:w-6/12 mt-7">
+            <h4 class=" text-xl font-medium mb-6 text-mainColor">about</h4>
+            <h1 class="text-3xl mb-6 font-bold ">
+              why you hire me?
+            </h1>
+            <p class=" mb-6 font-normal text-gray-500 max-w-xl">
+              This is a good question. You want to multiply and market your business, I put in your hands more than two years of experience in the field of designing and developing websites through which you will get the best website for you, through which we explain your company’s services and the extent of its success in the market and we display your previous works In the best possible way
+            </p>
+            <div class="skills font-normal">
+              <div class="flex justify-between items-center">
+                <h6 class="my-3">html/css</h6>
+                <div class="Percentage">
+                  <span class="num" data-goal="95">0</span><span>%</span>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
+                >
+                  <span
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    data-goal="95%"
+                  ></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <h6 class="my-3">java script</h6>
+                <div class="Percentage">
+                  <span class="num" data-goal="85">0</span><span>%</span>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
+                >
+                  <span
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    data-goal="85%"
+                  ></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <h6 class="my-3">react/redux</h6>
+                <div class="Percentage">
+                  <span class="num" data-goal="75">0</span><span>%</span>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
+                >
+                  <span
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    data-goal="75%"
+                  ></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <h6 class="my-3">bootstrap/tailwindcss</h6>
+                <div class="Percentage">
+                  <span class="num" data-goal="95">0</span><span>%</span>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
+                >
+                  <span
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    data-goal="95%"
+                  ></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <h6 class="my-3">wordpress/elementor</h6>
+                <div class="Percentage">
+                  <span class="num" data-goal="90">0</span><span>%</span>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-full h-3 bg-gray-200 rounded-l-full rounded-r-full py-0.5"
+                >
+                  <span
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    data-goal="90%"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start services -->
+    <section
+      class="services pt-20 xl:px-48 px-3  pb-11"
+      id="services"
+    >
+      <div class="container mx-auto">
+        <h5 class="text-xl text-mainColor w-fit mx-auto mb-6">services</h5>
+        <h1 class="serv_head text-4xl w-fit mx-auto mb-8 relative">
+          services i provide
+        </h1>
+        <div
+          class="services_boxs grid lg:grid-cols-3 sm:grid-cols-2 gap-10 mt-20"
+        >
+          <div
+            class="shadow-md px-10 py-10"
+          >
+            <i class="fa-brands fa-react text-7xl text-mainColor mb-6 "></i>
+            <h1 class="text-2xl mb-6">React App</h1>
+            <p class="font-normal text-gray-500">
+              The React framework allows us to build one-page websites PSA and this makes the user feel comfortable while browsing as if he is using an application mobile
+            </p>
+          </div>
+          <div
+            class="shadow-md px-10 py-10"
+          >
+            <i
+              class="fa-solid fa-laptop-code text-mainColor text-7xl mb-6 "
+            ></i>
+            <h1 class="text-2xl mb-6">front-end development</h1>
+            <p class="font-normal text-gray-500">
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+          </div>
+          <div
+            class="shadow-md px-10 py-10"
+          >
+            <i
+              class="fa-brands fa-wordpress-simple text-mainColor text-7xl mb-6 "
+            ></i>
+            <h1 class="text-2xl mb-6">worrdpress</h1>
+            <p class="font-normal text-gray-500">
+              Wordpress CMS is a user-friendly administrative area allowing you to easily edit your website's content.
+            </p>
+          </div>
+          <div
+            class="shadow-md px-10 py-10"
+          >
+            <i
+              class="fa-sharp fa-solid fa-pen-ruler text-mainColor text-7xl mb-6 "
+            ></i>
+            <h1 class="text-2xl mb-6">web design</h1>
+            <p class="font-normal text-gray-500">
+              Our approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.
+            </p>
+          </div>
+          <div
+            class="shadow-md px-10 py-10"
+          >
+            <i
+              class="fa-solid fa-cart-shopping text-mainColor text-7xl mb-6 "
+            ></i>
+            <h1 class="text-2xl mb-6">e-Commerce Solution</h1>
+            <p class="font-normal text-gray-500">
+              An eCommerce solution is a feature-filled, customisable online storefront and shopping cart that will be directly integrated into your website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start portfolio -->
+    <section
+      class="portfolio pt-20 xl:px-48 px-3 bg-gray-100 pb-11"
+      id="portfolio"
+    >
+      <div class="container mx-auto">
+        <h5 class=" text-xl text-mainColor mb-6">portfolio</h5>
+        <h1 class="port_head relative w-fit text-4xl">latest projects</h1>
+        <div
+          class="portfolio_boxs grid lg:grid-cols-3 lg:grid-rows-2 sm:grid-cols-2 sm-grid-row-3 gap-7 mt-20"
+        >
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/Shoping-React-App/">
+            <img
+              class="h-full"
+              src="./image/Shoping-React-App.png"
+              alt=""
+            />
+            <div class="box_title bg-gray-700 bg-opacity-30 w-full text-white absolute py-5 -bottom-80 px-7 left-0 transition-all duration-500">
+              <h1 class="text-2xl mb-6">React shoping App</h1>
+              <p class="font-normal">
+                e-commerce react app with redux-toolkit & react-router-dom and bootstrap css
+              </p>
+              <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
+            </div>
+          </a>
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/Weather-App/">
+            <img
+              class="h-full"
+              src="./image/Weather-React-App.png"
+              alt=""
+            />
+            <div class="box_title bg-gray-700 bg-opacity-30 w-full text-white absolute py-5 -bottom-80 px-7 left-0 transition-all duration-500">
+              <h1 class="text-2xl mb-6">React weahter App</h1>
+              <p class="font-normal ">
+                weather react app with redux-toolkit 
+                useing fech api by city name
+              </p>
+              <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
+            </div>
+          </a>
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/templet-5/">
+            <img
+              class="h-full"
+              src="./image/templet-5.png"
+              alt=""
+            />
+            <div class="box_title bg-gray-700 bg-opacity-30 w-full text-white absolute py-5 -bottom-80 px-7 left-0 transition-all duration-500">
+              <h1 class="text-2xl mb-6">seo web site 3 design</h1>
+              <p class="font-normal -700">
+                It was reprogrammed using html & css and javascript and there are 3 different designs
+              </p>
+              <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
+            </div>
+          </a>
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/music-player/">
+            <img
+              class="h-full"
+              src="./image/music-player.png"
+              alt=""
+            />
+            <div class="box_title bg-gray-700 bg-opacity-30 w-full text-white absolute py-5 -bottom-80 px-7 left-0 transition-all duration-500">
+              <h1 class="text-2xl mb-6">audio player</h1>
+              <p class="font-normal ">
+                audio player made wiht html & css and js
+              </p>
+              <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
+            </div>
+          </a>
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/quiz-game/">
+            <img
+              class="h-full"
+              src="./image/quiz-game.png"
+              alt=""
+            />
+            <div class="box_title bg-gray-700 bg-opacity-30 w-full text-white absolute py-5 -bottom-80 px-7 left-0 transition-all duration-500">
+              <h1 class="text-2xl mb-6">quiz game</h1>
+              <p class="font-normal ">
+                quiz game made wiht html & css and js
+              </p>
+              <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="text-center py-10 bg-mainColor text-white text-opacity-90 px-3 leading-loose"
+    >
+      <div class="container mx-auto">
+        <div class="font-bold text-2xl mb-12 tracking-widest first-letter:font-Inspiration first-letter:text-5xl">
+          free<span class="text-secondColor">lancer</span>
+        </div>
+        <div
+          class="box_icons flex items-center justify-center  px-3 mb-10 gap-7"
+        >
+          <a
+            class="flex justify-center items-center bg-gray-400 hover:text-mainColor rounded-full w-10 h-10 transition-colors duration-500"
+            href="https://www.facebook.com/eslamrouzqa"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a
+            class="flex justify-center items-center bg-gray-400 hover:text-mainColor rounded-full w-10 h-10 transition-colors duration-500"
+            href=""
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="flex justify-center items-center bg-gray-400 hover:text-mainColor rounded-full w-10 h-10 transition-colors duration-500"
+            href="https://github.com/eslam900?tab=repositories"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            class="flex justify-center items-center bg-gray-400 hover:text-mainColor rounded-full w-10 h-10 transition-colors duration-500"
+            href=""
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <h1 class="lowercase text-3xl md:text-5xl mb-6">eslam0955@gmail.com</h1>
+        <div class="px-5 mb-10 text-xl md:text-3xl">
+          <i class="fa-sharp fa-solid fa-phone mr-3"></i>
+          <span>01005801941</span>
+        </div>
+        <ul class="flex justify-center items-center font-light text-xl mb-9">
+          <li class="px-3">
+            <a
+              class="cursor-pointer md:link px-1 pb-2 hover:text-secondColor transition-colors duration-500"
+              href="#home"
+              >home</a
+            >
+          </li>
+          <li class="px-3">
+            <a
+              class="cursor-pointer md:link px-1 pb-2 hover:text-secondColor transition-colors duration-500"
+              href="#about"
+              >about</a
+            >
+          </li>
+          <li class="px-3">
+            <a
+              class="cursor-pointer md:link px-1 pb-2 hover:text-secondColor transition-colors duration-500"
+              href="#services"
+              >services</a
+            >
+          </li>
+          <li class="px-3">
+            <a
+              class="cursor-pointer md:link px-1 pb-2 hover:text-secondColor transition-colors duration-500"
+              href="#portfolio"
+              >portfolio</a
+            >
+          </li>
+        </ul>
+        <p>
+          Copyright ©2022 All rights reserved | This template is made with by
+          <span class=" text-xl">ibrahim rouzika.</span>
+        </p>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
