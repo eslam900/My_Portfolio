@@ -141,19 +141,19 @@
     </header>
     <!-- start about -->
     <section
-      class="about pt-20 lg:h-screen xl:px-48 px-3  pb-11 bg-gray-100"
+      class="about pt-20 lg:h-screen xl:px-48 px-3 overflow-hidden pb-11 bg-gray-100"
       id="about"
     >
       <div class="container mx-auto lg:h-full">
         <div class="about_boxs lg:flex items-center justify-between lg:h-full">
-          <div class="about_img lg:w-4/12 sm:w-8/12 w-full relative">
+          <div class="lg:w-4/12 sm:w-8/12 w-full relative right-full opacity-0 transition-all ease-in-out duration-1000 about_img ">
             <img
               class="mx-auto relative w-full z-10"
               src="./image/about_hero.png"
               alt=""
             />
           </div>
-          <div class="lg:w-6/12 mt-7">
+          <div class="lg:w-6/12 mt-7 relative left-full opacity-0 transition-all ease-in-out duration-1000 about_info">
             <h4 class=" text-xl font-medium mb-6 text-mainColor">about</h4>
             <h1 class="text-3xl mb-6 font-bold ">
               why you hire me?
@@ -173,7 +173,7 @@
                   class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
                 >
                   <span
-                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 delay-300 h-full w-0"
                     data-goal="95%"
                   ></span>
                 </div>
@@ -189,7 +189,7 @@
                   class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
                 >
                   <span
-                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 delay-300  h-full w-0"
                     data-goal="85%"
                   ></span>
                 </div>
@@ -205,7 +205,7 @@
                   class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
                 >
                   <span
-                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 delay-300 h-full w-0"
                     data-goal="75%"
                   ></span>
                 </div>
@@ -221,7 +221,7 @@
                   class="w-full h-3 bg-gray-200  rounded-l-full rounded-r-full py-0.5"
                 >
                   <span
-                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 delay-300 h-full w-0"
                     data-goal="95%"
                   ></span>
                 </div>
@@ -237,7 +237,7 @@
                   class="w-full h-3 bg-gray-200 rounded-l-full rounded-r-full py-0.5"
                 >
                   <span
-                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 h-full w-0"
+                    class=" block rounded-l-full bg-mainColor transition-all ease-in-out duration-1000 delay-300 h-full w-0"
                     data-goal="90%"
                   ></span>
                 </div>
@@ -261,7 +261,7 @@
           class="services_boxs grid lg:grid-cols-3 sm:grid-cols-2 gap-10 mt-20"
         >
           <div
-            class="shadow-md px-10 py-10"
+            class="shadow-md px-10 py-10 rounded-lg hover:rotate-1 hover:scale-105 transition duration-200"
           >
             <i class="fa-brands fa-react text-7xl text-mainColor mb-6 "></i>
             <h1 class="text-2xl mb-6">React App</h1>
@@ -270,7 +270,7 @@
             </p>
           </div>
           <div
-            class="shadow-md px-10 py-10"
+            class="shadow-md px-10 py-10 rounded-lg hover:rotate-1 hover:scale-105 transition duration-200"
           >
             <i
               class="fa-solid fa-laptop-code text-mainColor text-7xl mb-6 "
@@ -282,7 +282,7 @@
             </p>
           </div>
           <div
-            class="shadow-md px-10 py-10"
+            class="shadow-md px-10 py-10 rounded-lg hover:rotate-1 hover:scale-105 transition duration-200"
           >
             <i
               class="fa-brands fa-wordpress-simple text-mainColor text-7xl mb-6 "
@@ -293,7 +293,7 @@
             </p>
           </div>
           <div
-            class="shadow-md px-10 py-10"
+            class="shadow-md px-10 py-10 rounded-lg hover:rotate-1 hover:scale-105 transition duration-200"
           >
             <i
               class="fa-sharp fa-solid fa-pen-ruler text-mainColor text-7xl mb-6 "
@@ -304,7 +304,7 @@
             </p>
           </div>
           <div
-            class="shadow-md px-10 py-10"
+            class="shadow-md px-10 py-10 rounded-lg hover:rotate-1 hover:scale-105 transition duration-200"
           >
             <i
               class="fa-solid fa-cart-shopping text-mainColor text-7xl mb-6 "
@@ -385,9 +385,9 @@
               <h6 class="w-fit p-1 mt-2 font-bold text-mainColor">Click for more...</h6>
             </div>
           </a>
-          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 bg-gray-50" href="https://eslam900.github.io/quiz-game/">
+          <a class="portfolio_box rounded-lg overflow-hidden relative shadow-md p-3 h-80 lg:h-auto bg-gray-50" href="https://eslam900.github.io/quiz-game/">
             <img
-              class="h-full"
+              class="min-h-full"
               src="./image/quiz-game.png"
               alt=""
             />
