@@ -478,7 +478,7 @@
     <script src="./main.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js').then(function() {
+          navigator.serviceWorker.register('sw.js').then(function() {
             console.log('Serviceworker: registration complete.');
           }, function() {
             console.log('Serviceworker registration failure.');
