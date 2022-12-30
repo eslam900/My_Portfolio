@@ -14,7 +14,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://eslam900.github.io/My_Portfolio/",
+    "start_url": "/",
     "background_color": "#d13737",
     "display": "standalone",
     "orientation": "landscape",
