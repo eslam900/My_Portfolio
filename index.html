@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ibrahim Rouzika</title>
+    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="styles/Awesome.css" />
     <link rel="stylesheet" href="dist/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -475,5 +476,16 @@
       </div>
     </footer>
     <script src="./main.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js').then(function() {
+            console.log('Serviceworker: registration complete.');
+          }, function() {
+            console.log('Serviceworker registration failure.');
+          });
+      } else {
+          console.log('Serviceworker is not supported.');
+      }
+    </script>
   </body>
 </html>
