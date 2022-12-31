@@ -18,7 +18,7 @@
     "background_color": "#3D3838",
     "display": "standalone",
     "orientation": "portrait",
-    "theme_color": "#d13737",
+    "theme_color": "#C0C0C0",
     "screenshots": [
       {
       "src": "screenshot1.webp",
