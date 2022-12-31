@@ -4,7 +4,7 @@
     "description": "my portofolio",
     "icons": [
       {
-        "src": "./image/192png.png",
+        "src": "./image/192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
